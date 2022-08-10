@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="EstimateV2.Modules.StatusBar.Views.StatusBarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StatusBar DockPanel.Dock ="Bottom" Background="LightGray" Grid.Row="1" Grid.ColumnSpan="10" >
+            <StatusBarItem>
+                <TextBlock Name="statBarText" Text="Ready ~ Press F1 for Help ~ Press F5 to Refresh ~ Double-Click Row to Quick Edit"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</UserControl>

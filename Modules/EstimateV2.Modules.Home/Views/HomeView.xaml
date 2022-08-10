@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="EstimateV2.Modules.Home.Views.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EstimateV2.Modules.Home.Views"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignWidth="600" d:DesignHeight="400"
+             xmlns:prism="http://prismlibrary.com/" xmlns:viewmodels="clr-namespace:EstimateV2.Modules.Home.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:HomeViewModel}"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+
+
+    <Grid Background="#ffc000" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="0,5,5,5" TextElement.FontSize="19" TextElement.FontWeight="Bold">
+            <TextBlock HorizontalAlignment="Center">Vessel:</TextBlock>
+            <TextBlock HorizontalAlignment="Center">Voyage:</TextBlock>
+            <TextBlock HorizontalAlignment="Center">Port:</TextBlock>
+            <TextBlock HorizontalAlignment="Center">Sail Date:</TextBlock>
+            <TextBlock HorizontalAlignment="Center">Estimate ID:</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" TextElement.FontSize="19" Margin="20,15,0,0">
+            <CheckBox HorizontalAlignment="Left">Ignore Export Tonnage</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore Import Tonnage</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore Export Shunting</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore Import Shunting</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore Export Reefer</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore Import Reefer</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore FFWD Commission</CheckBox>
+            <CheckBox HorizontalAlignment="Left">Ignore CASP Files</CheckBox>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" TextElement.FontSize="15">
+            <Button HorizontalAlignment="Center" Height="30" Width="170" Margin="5,5,0,0" Command="{Binding EstCommand}" >Process Estimate(s)</Button>
+            <Button HorizontalAlignment="Center" Height="30" Width="170" Margin="5,5,0,0" >Post to DB</Button>
+            <Button HorizontalAlignment="Center" Height="30" Width="170" Margin="5,5,0,0" >Post to ECR</Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" TextElement.FontSize="15">
+            <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="30" Width="110" Margin="5,5,5,0" Command="{Binding ClickCommand}">Advanced...</Button>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

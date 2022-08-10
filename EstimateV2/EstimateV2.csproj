@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EstimateV2.Core\EstimateV2.Core.csproj" />
+    <ProjectReference Include="..\Modules\EstimateV2.Modules.Home\EstimateV2.Modules.Home.csproj" />
+    <ProjectReference Include="..\Modules\EstimateV2.Modules.Settings\EstimateV2.Modules.Settings.csproj" />
+    <ProjectReference Include="..\Modules\EstimateV2.Modules.StatusBar\EstimateV2.Modules.StatusBar.csproj" />
+  </ItemGroup>
+</Project>
