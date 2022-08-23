@@ -17,7 +17,7 @@ namespace EstimateV2.Core.XmlComponents
         public string? OperationType { get; set; }
         
         [XmlIgnore]
-        public string? SteveDoringHoursType { get; set; }
+        public string? SteveDoringHoursType { get; set; } 
                 
         [XmlIgnore]
         public string? ShoreCrane { get; set; }
@@ -74,5 +74,7 @@ namespace EstimateV2.Core.XmlComponents
                     return "PT";
             }
         }
+
+
     }
 }

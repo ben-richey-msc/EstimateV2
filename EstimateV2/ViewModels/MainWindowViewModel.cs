@@ -1,4 +1,5 @@
-﻿using Prism.Mvvm;
+﻿using EstimateV2.Core.Excel;
+using Prism.Mvvm;
 
 namespace EstimateV2.ViewModels
 {
@@ -13,7 +14,8 @@ namespace EstimateV2.ViewModels
 
         public MainWindowViewModel()
         {
-
+            var tor = new TOR();
+            TOR.Main();
 
 
         }

@@ -1,252 +1,30 @@
-﻿using EstimateV2.Core.EF;
-using EstimateV2.Core.XmlComponents;
-using Prism.Commands;
-using Prism.Mvvm;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Xml.Linq;
-using System.Threading;
-using System.Data.Entity;
-using System.Xml.Serialization;
+using System.IO;
 
-namespace EstimateV2.Modules.Settings.ViewModels
+namespace EstimateV2.Core.XmlComponents
 {
-    public class SettingsWindowViewModel : BindableBase
+    public static class GlobalVCI
     {
-        #region Binding Properties
-        private string _visDB = "Collapsed";
-        public string VisDB
-        {
-            get { return _visDB; }
-            set { SetProperty(ref _visDB, value); }
-        }
-
-        private string _visXML = "Collapsed";
-        public string VisXML
-        {
-            get { return _visXML; }
-            set { SetProperty(ref _visXML, value); }
-        }
-
-        private string _VisEst = "Collapsed";
-        public string VisEst
-        {
-            get { return _VisEst; }
-            set { SetProperty(ref _VisEst, value); }
-        }
-
-        private List<DueToday> _vesselList;
-        public List<DueToday> VesselList
-        {
-            get { return _vesselList; }
-            set { SetProperty(ref _vesselList, value); }
-        }
-        #endregion
-
-        public VesselEntities globalEntities = new VesselEntities();
-        public DelegateCommand cmdShowDB { get; private set; }
-        public DelegateCommand cmdShowXML { get; private set; }
-        public DelegateCommand cmdShowEst { get; private set; }
+        public static VCI vci { get; set; }
         private static string path = @"C:\Work\Liam\TestingNewXML\USBAL-MSC MICHAELA-IX227R-25JUL2022-131619.xml";
 
 
-        public SettingsWindowViewModel()
+
+        static GlobalVCI()
         {
-            refreshDB();
-            VCIList = GetNewXML();
-            cmdShowDB = new DelegateCommand(ShowDB);
-            cmdShowXML = new DelegateCommand(ShowXML);
-            cmdShowEst = new DelegateCommand(ShowEst);
-
-            //test database to XML
-            DbToXml();
-
-            //test serialization
             var vci = new VCI();
             vci = ProcessXML(path);
-            SaveAsXmlFormat(vci, "testserial.xml");
-
-            //test output serialization - gangworkingtime
-            var detailList = vci.Operation.SteveDoringOperation.First().SteveDoringDetail;
-            //var svd = new SteveDoringDetailItemOut(detailList.First());
-            //var vci = new VCI();
-
-            //SaveAsXmlFormat(svd, "testserialgangtime.xml");
-
-            //test output serialization - no seprarate out class
-            var detailList3 = vci.Operation.SteveDoringOperation; 
-            SaveAsXmlFormat(detailList3, "testserialgangtime2.xml");
         }
-
-        static void SaveAsXmlFormat<T>(T objGraph, string fileName)
-        {
-            //Must declare type in the constructor of the XmlSerializer
-            XmlSerializer xmlFormat = new XmlSerializer(typeof(T));
-            using (Stream fStream = new FileStream(fileName,
-            FileMode.Create, FileAccess.Write, FileShare.None))
-            {
-                xmlFormat.Serialize(fStream, objGraph);
-            }
-        }
-
-        void refreshDB()
-        {
-            VesselList = globalEntities.DueTodays.ToList();
-        }
-
-        private void ShowDB()
-        {
-            VisXML = "Collapsed";
-            VisEst = "Collapsed";
-            VisDB = "Visible";
-        }
-
-        private void ShowXML()
-        {
-            VisDB = "Collapsed";
-            VisEst = "Collapsed";
-            VisXML = "Visible";
-        }
-
-        public void ShowEst()
-        {
-            VisDB = "Collapsed";
-            VisXML = "Collapsed";
-            VisEst = "Visible";
-        }
-
-        private void DbToXml()
-        {
-
-            var customers =
-                new XElement("customers",
-                    from c in globalEntities.DueTodays.AsEnumerable()
-                    select
-                        new XElement("id", new XAttribute("id", c.ID),
-                        new XElement("Port", c.Port),
-                        new XElement("Vessel", c.Vessel),
-                        new XElement("Voyage", c.Voyage),
-                        new XElement("Departure_Date", c.Departure_Date),
-                        new XElement("Status", c.Status),
-                        new XElement("VCI_Due_Date", c.VCI_Due_Date),
-                        new XElement("Days_Overdue_VCI", c.Days_Overdue_VCI),
-                        new XElement("PVE_Due_Date", c.PVE_Due_Date),
-                        new XElement("Less_Holiday", c.Less_Holiday),
-                        new XElement("Days_Overdue_PVE", c.Days_Overdue_PVE),
-                        new XElement("Notes", c.Notes),
-                        new XElement("Problems", c.Problems),
-                        new XElement("LINK_Processed", c.LINK_Processed),
-                        new XElement("Potential_Corrections", c.Potential_Corrections),
-                        new XElement("Submitted", c.Submitted),
-                        new XElement("Submission_Date", c.Submission_Date),
-                        new XElement("Submitted_By", c.Submitted_By),
-                        new XElement("DA_number", c.DA_number),
-                        new XElement("LinkIM_", c.LinkIM_),
-                        new XElement("LinkEX_", c.LinkEX_),
-                        new XElement("Detail", c.Detail),
-                        new XElement("PVE_Status_Date", c.PVE_Status_Date),
-                        new XElement("ID_ESTIMATE", c.ID_ESTIMATE),
-                        new XElement("IC_REVALIDATED", c.IC_REVALIDATED),
-                        new XElement("Ready_To_Process", c.Ready_To_Process),
-                        new XElement("TERMINAL", c.TERMINAL),
-                        new XElement("Double_Call", c.Double_Call),
-                        new XElement("VCI_Validated", c.VCI_Validated)
-
-                        )
-                    );
-            customers.Save(@"C:\Work\EstimateV2\output.xml");
-            string estimate = customers.ToString();
-            Console.WriteLine(estimate);
-
-            var customers2 =
-                    new XElement("customers",
-                    from c in globalEntities.DueTodays.AsEnumerable()
-                    let LatestLargeShipment = (from p in globalEntities.DueTodays.AsEnumerable()
-                                               where p.ID > 1010
-                                               orderby p.Departure_Date descending
-                                               select p).FirstOrDefault()
-                    where c.ID % 2 == 0
-                    select
-                        new XElement("id", new XAttribute("id", c.ID),
-                        new XElement("Port", c.Port),
-                        new XElement("Vessel", c.Vessel),
-                        new XElement("Voyage", c.Voyage),
-                        new XElement("Departure_Date", c.Departure_Date),
-                        new XElement("Status", c.Status),
-                        new XElement("VCI_Due_Date", c.VCI_Due_Date),
-                        new XElement("Days_Overdue_VCI", c.Days_Overdue_VCI),
-                        new XElement("PVE_Due_Date", c.PVE_Due_Date),
-                        new XElement("Less_Holiday", c.Less_Holiday),
-                        new XElement("Days_Overdue_PVE", c.Days_Overdue_PVE),
-                        new XElement("Notes", c.Notes),
-                        new XElement("Problems", c.Problems),
-                        new XElement("LINK_Processed", c.LINK_Processed),
-                        new XElement("Potential_Corrections", c.Potential_Corrections),
-                        new XElement("Submitted", c.Submitted),
-                        new XElement("Submission_Date", c.Submission_Date),
-                        new XElement("Submitted_By", c.Submitted_By),
-                        new XElement("DA_number", c.DA_number),
-                        new XElement("LinkIM_", c.LinkIM_),
-                        new XElement("LinkEX_", c.LinkEX_),
-                        new XElement("Detail", c.Detail),
-                        new XElement("PVE_Status_Date", c.PVE_Status_Date),
-                        new XElement("ID_ESTIMATE", c.ID_ESTIMATE),
-                        new XElement("IC_REVALIDATED", c.IC_REVALIDATED),
-                        new XElement("Ready_To_Process", c.Ready_To_Process),
-                        new XElement("TERMINAL", c.TERMINAL),
-                        new XElement("Double_Call", c.Double_Call),
-                        new XElement("VCI_Validated", c.VCI_Validated),
-                        //additional tags w/ new calculations
-                        new XElement("LatestLargeShipment", LatestLargeShipment,
-                            new XElement ("Vessel", LatestLargeShipment.Vessel), 
-                            new XElement ("Voyage", LatestLargeShipment.Voyage))
-
-                        )
-                    );
-            customers2.Save(@"C:\Work\EstimateV2\output2.xml");
-
-            //Test XML
-            VCI vci = new VCI();
-            XDocument? doc = XDocument.Load(@"C:\Work\Liam\TestingNewXML\USBAL-MSC MICHAELA-IX227R-25JUL2022-131619.xml");
-            IEnumerable<XElement> elements = doc.Root.Elements();
-            XElement vessels2 = null;
-
-            foreach (var element in elements.Elements("vci"))
-            {
-
-                XElement vessels = new XElement("vessels",
-                                from c in elements
-                                select
-                                    new XElement("id", new XAttribute("id", c.Element("port").Value)
-                                    )
-                                );
-            }
-
-
-
-            //vessels2.Save(@"C:\Work\EstimateV2\output3.xml");
-
-            //var vessels =
-            //     new XElement("vessels",
-            //         from c in doc.Root.Elements()
-            //         select
-            //             new XElement("id", new XAttribute("id", c.Element("header"))
-            //             )
-            //         );
-            // vessels.Save(@"C:\Work\EstimateV2\output3.xml");
-            // string estimate3 = vessels.ToString();
-            // Console.WriteLine(estimate);
-
-        }
-
-
 
 
         #region XML
-        private List<VCI>? _vciList;
-        public List<VCI>? VCIList
+        private static List<VCI>? _vciList;
+        public static List<VCI>? VCIList
         {
             get { return _vciList; }
             set
@@ -256,15 +34,15 @@ namespace EstimateV2.Modules.Settings.ViewModels
             }
         }
 
-        private VCI? _selectedVCI;
-        public VCI? SelectedVCI
+        private static VCI? _selectedVCI;
+        public static VCI? SelectedVCI
         {
             get { return _selectedVCI; }
             set { _selectedVCI = value; /*NotifyOfPropertyChange(() => SelectedVCI);*/ }
         }
 
 
-        public VCI ProcessXML(string fileEntry)
+        public static VCI ProcessXML(string fileEntry)
         {
 
             VCI vci = new VCI();
@@ -802,7 +580,7 @@ namespace EstimateV2.Modules.Settings.ViewModels
             return vci;
         }
 
-        public List<VCI> GetNewXML()
+        public static List<VCI> GetNewXML()
         {
             string[] fileEntries = Directory.GetFiles(@"C:\Work\Liam\TestingNewXML");
 
@@ -817,5 +595,9 @@ namespace EstimateV2.Modules.Settings.ViewModels
             return vciList;
         }
         #endregion
+
     }
+
+
+
 }

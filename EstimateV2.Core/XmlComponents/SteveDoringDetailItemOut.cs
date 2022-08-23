@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 namespace EstimateV2.Core.XmlComponents
 {
     [Serializable, XmlRoot("gangworkingtimes")]
-    public class SteveDoringDetailItemOut: SteveDoringDetailItem
+    public class SteveDoringDetailItemOut//: SteveDoringDetailItem
 
     {                
         [XmlAttribute]
@@ -25,19 +25,19 @@ namespace EstimateV2.Core.XmlComponents
 
 
 
-        public SteveDoringDetailItemOut(SteveDoringDetailItem item)
+        public SteveDoringDetailItemOut()
         {
-            from2 = item.From;
-            to2 = item.To;
-            number2 = item.NumberOfGang;
-            workingperiodpayrate2 = GetHoursCode(item.SteveDoringHoursType);    
+            //from2 = GlobalVCI.
+            //to2 = item.To;
+            //number2 = item.NumberOfGang;
+            //workingperiodpayrate2 = GetHoursCode(item.SteveDoringHoursType);    
         }
         
         //empty contructor required for serialization
-        public SteveDoringDetailItemOut()
-        {
+        //public SteveDoringDetailItemOut()
+        //{
 
-        }
+        //}
 
         //calculate overtime pay code from SteveDoringHoursType
         private string GetHoursCode(string hourType)
