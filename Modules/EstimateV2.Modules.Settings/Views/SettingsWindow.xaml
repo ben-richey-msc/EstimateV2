@@ -32,6 +32,7 @@
                     <StackPanel Margin="0,5,5,5">
                         <TextBlock Margin ="0" Padding="3" Text="Data Output:" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Center" />
                         <Button HorizontalAlignment="Stretch"  Margin="5,5,0,0" Command="{Binding cmdShowEst}">View Estimates</Button>
+                        <Button HorizontalAlignment="Stretch"  Margin="5,5,0,0" Command="{Binding cmdTestOutput}">Test Output</Button>
                     </StackPanel>
                 </Border>
             </StackPanel>

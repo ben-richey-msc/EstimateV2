@@ -1,0 +1,648 @@
+<vci version='5' revision='0' xmlns='http://www.mscgva.ch/service/vci/2010/11/16' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+<header>
+<main>
+<port>USBAL</port>
+<terminal>USBALPP</terminal>
+<vessel>MSC MICHAELA</vessel>
+<voyage>IX227R</voyage>
+<vesselinfo>
+<onhire xsi:nil='true'/>
+<offhire xsi:nil='true'/>
+<damage>0</damage>
+</vesselinfo>
+<canalnettonnage>0</canalnettonnage>
+<panamateucapacity>0</panamateucapacity>
+<sueztier>0</sueztier>
+<calltype>
+<calltypeitem>Discharging</calltypeitem>
+</calltype>
+<bowthruster>
+<bowthrusteritem>arrival in order</bowthrusteritem>
+<bowthrusteritem>departure in order</bowthrusteritem>
+</bowthruster>
+<drydockrepair>
+<from xsi:nil='true'/>
+<to xsi:nil='true'/>
+</drydockrepair>
+<comment>
+Arr: Linesmen Attending: 18-Jul-2022 12:00
+Dep: Linesmen Attending: 19-Jul-2022 06:10
+***Discharge 12 x 40' Live MSC Reefers.
+***Discharge 60 x 20' Hazardous MSC boxes.
+***Discharge 12 x 40' Hazardous MSC boxes.
+TOR Comments:
+Emergency Gear used to discharge TCLU7618386 43.14.06
+</comment>
+<vcistatus></vcistatus>
+</main>
+<vesselberth>
+<vesselberthitem id='1'>
+<terminal>USBALPP</terminal>
+<arrivalberthtime>2022-07-18T12:10:00</arrivalberthtime>
+<departureberthtime>2022-07-19T06:10:00</departureberthtime>
+<calltype>
+<calltypeitem>Discharging</calltypeitem>
+</calltype>
+<drydockfrom xsi:nil='true'/>
+<drydockto xsi:nil='true'/>
+</vesselberthitem>
+</vesselberth>
+<arrival>
+<vesselarrivesatpilotstationroads>2022-07-13T21:30:00</vesselarrivesatpilotstationroads>
+<drifting>
+<from xsi:nil='true'/>
+<to xsi:nil='true'/>
+</drifting>
+<dropanchor>
+<from>2022-07-14T07:42:00</from>
+<to>2022-07-18T08:45:00</to>
+</dropanchor>
+<laybyberth>
+<from xsi:nil='true'/>
+<to xsi:nil='true'/>
+</laybyberth>
+<vesselberth>2022-07-18T12:10:00</vesselberth>
+<commencedtransitconvoy xsi:nil='true'/>
+<draft>
+<fwd>14.3</fwd>
+<aft>14.2</aft>
+</draft>
+<watchmen>0</watchmen>
+<pilotage>
+<pilotageitem id='1'>
+<pilottype>Sea</pilottype>
+<number>1</number>
+<from>2022-07-13T21:35:00</from>
+<to>2022-07-14T07:42:00</to>
+<duration>010:07</duration>
+<comment>XXX</comment>
+</pilotageitem>
+<pilotageitem id='2'>
+<pilottype>Sea</pilottype>
+<number>1</number>
+<from>2022-07-18T08:12:00</from>
+<to>2022-07-18T12:10:00</to>
+<duration>003:58</duration>
+<comment>XXX</comment>
+</pilotageitem>
+<pilotageitem id='3'>
+<pilottype>Docking/Berthing</pilottype>
+<number>1</number>
+<from>2022-07-18T10:14:00</from>
+<to>2022-07-18T12:10:00</to>
+<duration>001:56</duration>
+<comment>XXX</comment>
+</pilotageitem>
+</pilotage>
+<pilotageextracost></pilotageextracost>
+<towage>
+<towageitem id='1'>
+<tugtype>Sea</tugtype>
+<number>2</number>
+<from>2022-07-18T10:55:00</from>
+<to>2022-07-18T12:10:00</to>
+<duration>001:15</duration>
+<duetobowthrusternotoperated>false</duetobowthrusternotoperated>
+<comment>XXX</comment>
+</towageitem>
+<towageitem id='2'>
+<tugtype>Escort</tugtype>
+<number>1</number>
+<from>2022-07-18T10:55:00</from>
+<to>2022-07-18T12:10:00</to>
+<duration>001:15</duration>
+<duetobowthrusternotoperated>false</duetobowthrusternotoperated>
+<comment>XXX</comment>
+</towageitem>
+</towage>
+<gangwaydown>2022-07-18T12:45:00</gangwaydown>
+<anchoragereason>Others</anchoragereason>
+</arrival>
+<vesselshifting>
+<vesselshiftingitem id='1'><type>No Shifting</type>
+<from>2022-07-18T12:10:00</from>
+<to>2022-07-19T06:10:00</to>
+<reason></reason>
+<pilotsnumber>0</pilotsnumber>
+<tugsnumber>0</tugsnumber>
+<mooring>false</mooring>
+<terminalfrom>USBALPP</terminalfrom>
+<terminalto></terminalto>
+</vesselshiftingitem>
+</vesselshifting>
+<departure>
+<draft>
+<fwd>13.2</fwd>
+<aft>13.2</aft>
+</draft>
+<locomotiveservice>0</locomotiveservice>
+<completedtransitconvoy xsi:nil='true'/>
+<sailedfromberth>2022-07-19T06:10:00</sailedfromberth>
+<anchorageout>
+<from xsi:nil='true'/>
+<to xsi:nil='true'/>
+</anchorageout>
+<laybyberth>
+<from xsi:nil='true'/>
+<to xsi:nil='true'/>
+</laybyberth>
+<pilotage>
+<pilotageitem id='1'>
+<pilottype>Sea</pilottype>
+<number>1</number>
+<from>2022-07-19T04:50:00</from>
+<to>2022-07-19T16:45:00</to>
+<duration>011:55</duration>
+<comment>XXX</comment>
+</pilotageitem>
+</pilotage>
+<pilotageextracost></pilotageextracost>
+<towage>
+<towageitem id='1'>
+<tugtype>Sea</tugtype>
+<number>2</number>
+<from>2022-07-19T06:10:00</from>
+<to>2022-07-19T06:55:00</to>
+<duration>000:45</duration>
+<duetobowthrusternotoperated>false</duetobowthrusternotoperated>
+<comment>XXX</comment>
+</towageitem>
+</towage>
+</departure>
+</header>
+<operation>
+<stevedoringoperation>
+<stevedoringoperationitem id='1'>
+<terminal>USBALPP</terminal>
+<operationstarted>2022-07-18T13:00:00</operationstarted>
+<operationcompleted>2022-07-19T05:45:00</operationcompleted>
+<unlashing>
+<completed>2022-07-18T13:00:00</completed>
+<doneby>T</doneby>
+</unlashing>
+<lashing>
+<completed>2022-07-19T05:45:00</completed>
+<doneby>T</doneby>
+</lashing>
+<stevedoringdetail>
+<stevedoringdetailitem id='1'>
+<operationtype>Discharging Operations</operationtype>
+<stevedoringhourstype>Normal Hours / Straight Time</stevedoringhourstype>
+<numberofgang>3</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T13:00:00</from>
+<to>2022-07-18T17:00:00</to>
+<duration>004:00</duration>
+<reason>XXX</reason>
+</stevedoringdetailitem>
+<stevedoringdetailitem id='1/1/1900'>
+<operationtype>Discharging Operations</operationtype>
+<stevedoringhourstype>Overtime</stevedoringhourstype>
+<numberofgang>3</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T17:00:00</from>
+<to>2022-07-18T18:00:00</to>
+<duration>001:00</duration>
+<reason>XXX</reason>
+</stevedoringdetailitem>
+<stevedoringdetailitem id='3'>
+<operationtype>Discharging Operations</operationtype>
+<stevedoringhourstype>Overtime</stevedoringhourstype>
+<numberofgang>3</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T19:00:00</from>
+<to>2022-07-19T00:00:00</to>
+<duration>005:00</duration>
+<reason>XXX</reason>
+</stevedoringdetailitem>
+<stevedoringdetailitem id='1/3/1900'>
+<operationtype>Discharging Operations</operationtype>
+<stevedoringhourstype>Meal Hours</stevedoringhourstype>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T00:00:00</from>
+<to>2022-07-19T01:00:00</to>
+<duration>001:00</duration>
+<reason>XXX</reason>
+</stevedoringdetailitem>
+<stevedoringdetailitem id='1/4/1900'>
+<operationtype>Discharging Operations</operationtype>
+<stevedoringhourstype>Overtime</stevedoringhourstype>
+<numberofgang>2</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T01:00:00</from>
+<to>2022-07-19T03:30:00</to>
+<duration>002:30</duration>
+<reason>XXX</reason>
+</stevedoringdetailitem>
+<stevedoringdetailitem id='6'>
+<operationtype>Discharging Operations</operationtype>
+<stevedoringhourstype>Overtime</stevedoringhourstype>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T03:30:00</from>
+<to>2022-07-19T06:00:00</to>
+<duration>002:30</duration>
+<reason>XXX</reason>
+</stevedoringdetailitem>
+</stevedoringdetail>
+<stoppagedetail>
+<stoppagedetailitem id='12/31/1899'>
+<operationtype>Idle Times</operationtype>
+<stoppagetype>No gangs requested (Gva instruction/Avoid Extra Charges)</stoppagetype>
+<stoppagetypegroup>During Ops</stoppagetypegroup>
+<numberofgang>0</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T18:00:00</from>
+<to>2022-07-18T19:00:00</to>
+<duration>001:00</duration>
+<description>XXX</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='2'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Crane down (mechanical/spreader/another)</stoppagetype>
+<stoppagetypegroup>Terminal</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T14:55:00</from>
+<to>2022-07-18T15:10:00</to>
+<duration>000:15</duration>
+<description>Equipment - Shore Crane Down - Mechanical - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='3'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Crane Shifting (between vessels or on same vessel)</stoppagetype>
+<stoppagetypegroup>Terminal</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T16:00:00</from>
+<to>2022-07-18T16:15:00</to>
+<duration>000:15</duration>
+<description>Equipment - Switching between Cranes - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='1/3/1900'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Heavy-Winds</stoppagetype>
+<stoppagetypegroup>Weather</stoppagetypegroup>
+<numberofgang>3</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T17:15:00</from>
+<to>2022-07-18T17:30:00</to>
+<duration>000:15</duration>
+<description>Weather - High Winds - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='5'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Crane down (mechanical/spreader/another)</stoppagetype>
+<stoppagetypegroup>Terminal</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T13:00:00</from>
+<to>2022-07-18T13:20:00</to>
+<duration>000:20</duration>
+<description>Equipment - Shore Crane Down - Mechanical - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='1/5/1900'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Crane down (mechanical/spreader/another)</stoppagetype>
+<stoppagetypegroup>Terminal</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T01:00:00</from>
+<to>2022-07-19T01:15:00</to>
+<duration>000:15</duration>
+<description>Equipment - Shore Crane Down - Mechanical - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='1/6/1900'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Crane down (mechanical/spreader/another)</stoppagetype>
+<stoppagetypegroup>Terminal</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T02:30:00</from>
+<to>2022-07-19T02:45:00</to>
+<duration>000:15</duration>
+<description>Equipment - Shore Crane Down - Mechanical - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='1/7/1900'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>Cell Guide Damaged</stoppagetype>
+<stoppagetypegroup>Vessel</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T04:15:00</from>
+<to>2022-07-19T04:30:00</to>
+<duration>000:15</duration>
+<description>Vessel - Damaged Cell Guides - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='9'>
+<operationtype>Stoppages</operationtype>
+<stoppagetype>OOG with Frame or Wires (Discharging/Load)</stoppagetype>
+<stoppagetypegroup>Terminal</stoppagetypegroup>
+<numberofgang>1</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T05:00:00</from>
+<to>2022-07-19T05:30:00</to>
+<duration>000:30</duration>
+<description>OOG - Disch/Load with Wires - Terminal Op</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='10'>
+<operationtype>Idle Times</operationtype>
+<stoppagetype>Others</stoppagetype>
+<stoppagetypegroup>Before Ops</stoppagetypegroup>
+<numberofgang>0</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-18T12:10:00</from>
+<to>2022-07-18T13:00:00</to>
+<duration>000:50</duration>
+<description>XXX</description>
+</stoppagedetailitem>
+<stoppagedetailitem id='1/10/1900'>
+<operationtype>Idle Times</operationtype>
+<stoppagetype>Others</stoppagetype>
+<stoppagetypegroup>After Ops completed</stoppagetypegroup>
+<numberofgang>0</numberofgang>
+<shorecrane></shorecrane>
+<from>2022-07-19T06:00:00</from>
+<to>2022-07-19T06:10:00</to>
+<duration>000:10</duration>
+<description>XXX</description>
+</stoppagedetailitem>
+</stoppagedetail>
+<gangguarantee>
+<gangguaranteeitem id='12/31/1899'>
+<from>2022-07-19T00:45:00</from>
+<to>2022-07-19T01:00:00</to>
+<quantity>1</quantity>
+<shorecrane></shorecrane>
+<comment>Labor - Unused Gang Time - Terminal Op</comment>
+</gangguaranteeitem>
+<gangguaranteeitem id='2'>
+<from>2022-07-19T03:15:00</from>
+<to>2022-07-19T03:30:00</to>
+<quantity>1</quantity>
+<shorecrane></shorecrane>
+<comment>Labor - Unused Gang Time - Terminal Op</comment>
+</gangguaranteeitem>
+<gangguaranteeitem id='1/2/1900'>
+<from>2022-07-19T05:45:00</from>
+<to>2022-07-19T06:00:00</to>
+<quantity>1</quantity>
+<shorecrane></shorecrane>
+<comment>Labor - Unused Gang Time - Terminal Op</comment>
+</gangguaranteeitem>
+</gangguarantee>
+</stevedoringoperationitem>
+</stevedoringoperation>
+<service>
+<serviceitem id='1'>
+<type>Freshwater</type>
+<comment>0</comment>
+</serviceitem>
+</service>
+<bunker>
+</bunker>
+</operation>
+<container>
+<containersdetailsoperation>
+<containersdetailsoperationitem id='1'>
+<terminal>USBALPP</terminal>
+<movementtype>DIS</movementtype>
+<containeriso>4532</containeriso>
+<fullempty>F</fullempty>
+<operator>MSCU</operator>
+<amount>12</amount>
+<weight>291</weight>
+<oogcargo>false</oogcargo>
+<damagedcargo>false</damagedcargo>
+<imo>false</imo>
+<soc>false</soc>
+<coastalcargo>false</coastalcargo>
+<fromtorail>false</fromtorail>
+<fromtobarge>false</fromtobarge>
+<fromtotpf>false</fromtotpf>
+<fromtotruck>false</fromtotruck>
+</containersdetailsoperationitem>
+<containersdetailsoperationitem id='2'>
+<terminal>USBALPP</terminal>
+<movementtype>DIS</movementtype>
+<containeriso>4510</containeriso>
+<fullempty>F</fullempty>
+<operator>MSCU</operator>
+<amount>12</amount>
+<weight>270</weight>
+<oogcargo>false</oogcargo>
+<damagedcargo>false</damagedcargo>
+<imo>true</imo>
+<soc>false</soc>
+<coastalcargo>false</coastalcargo>
+<fromtorail>false</fromtorail>
+<fromtobarge>false</fromtobarge>
+<fromtotpf>false</fromtotpf>
+<fromtotruck>false</fromtotruck>
+</containersdetailsoperationitem>
+<containersdetailsoperationitem id='3'>
+<terminal>USBALPP</terminal>
+<movementtype>DIS</movementtype>
+<containeriso>4510</containeriso>
+<fullempty>F</fullempty>
+<operator>MSCU</operator>
+<amount>154</amount>
+<weight>3504</weight>
+<oogcargo>false</oogcargo>
+<damagedcargo>false</damagedcargo>
+<imo>false</imo>
+<soc>false</soc>
+<coastalcargo>false</coastalcargo>
+<fromtorail>false</fromtorail>
+<fromtobarge>false</fromtobarge>
+<fromtotpf>false</fromtotpf>
+<fromtotruck>false</fromtotruck>
+</containersdetailsoperationitem>
+<containersdetailsoperationitem id='4'>
+<terminal>USBALPP</terminal>
+<movementtype>DIS</movementtype>
+<containeriso>4310</containeriso>
+<fullempty>F</fullempty>
+<operator>MSCU</operator>
+<amount>10</amount>
+<weight>260</weight>
+<oogcargo>false</oogcargo>
+<damagedcargo>false</damagedcargo>
+<imo>false</imo>
+<soc>false</soc>
+<coastalcargo>false</coastalcargo>
+<fromtorail>false</fromtorail>
+<fromtobarge>false</fromtobarge>
+<fromtotpf>false</fromtotpf>
+<fromtotruck>false</fromtotruck>
+</containersdetailsoperationitem>
+<containersdetailsoperationitem id='5'>
+<terminal>USBALPP</terminal>
+<movementtype>DIS</movementtype>
+<containeriso>2210</containeriso>
+<fullempty>F</fullempty>
+<operator>MSCU</operator>
+<amount>60</amount>
+<weight>836</weight>
+<oogcargo>false</oogcargo>
+<damagedcargo>false</damagedcargo>
+<imo>true</imo>
+<soc>false</soc>
+<coastalcargo>false</coastalcargo>
+<fromtorail>false</fromtorail>
+<fromtobarge>false</fromtobarge>
+<fromtotpf>false</fromtotpf>
+<fromtotruck>false</fromtotruck>
+</containersdetailsoperationitem>
+<containersdetailsoperationitem id='6'>
+<terminal>USBALPP</terminal>
+<movementtype>DIS</movementtype>
+<containeriso>2210</containeriso>
+<fullempty>F</fullempty>
+<operator>MSCU</operator>
+<amount>301</amount>
+<weight>7484</weight>
+<oogcargo>false</oogcargo>
+<damagedcargo>false</damagedcargo>
+<imo>false</imo>
+<soc>false</soc>
+<coastalcargo>false</coastalcargo>
+<fromtorail>false</fromtorail>
+<fromtobarge>false</fromtobarge>
+<fromtotpf>false</fromtotpf>
+<fromtotruck>false</fromtotruck>
+</containersdetailsoperationitem>
+</containersdetailsoperation>
+<restow>
+<restowitem id='0'>
+<terminal>USBALPP</terminal>
+<movementtype>CQC</movementtype>
+<sizetype>4332</sizetype>
+<fullempty>F</fullempty>
+<operator xsi:nil="true"/>
+<restowsamount>23</restowsamount>
+<reasontype>To keep the vessels stability /stress / visibility parameters within safety limits</reasontype>
+<weight>230</weight>
+<oog>false</oog>
+<imo>false</imo>
+<damaged>false</damaged>
+<notformscaccount>false</notformscaccount>
+<comment>MSC</comment>
+</restowitem>
+<restowitem id='1'>
+<terminal>USBALPP</terminal>
+<movementtype>CQC</movementtype>
+<sizetype>4332</sizetype>
+<fullempty>E</fullempty>
+<operator xsi:nil="true"/>
+<restowsamount>8</restowsamount>
+<reasontype>To keep the vessels stability /stress / visibility parameters within safety limits</reasontype>
+<weight>80</weight>
+<oog>false</oog>
+<imo>false</imo>
+<damaged>false</damaged>
+<notformscaccount>false</notformscaccount>
+<comment>MSC</comment>
+</restowitem>
+<restowitem id='2'>
+<terminal>USBALPP</terminal>
+<movementtype>CQC</movementtype>
+<sizetype>4510</sizetype>
+<fullempty>F</fullempty>
+<operator xsi:nil="true"/>
+<restowsamount>148</restowsamount>
+<reasontype>To keep the vessels stability /stress / visibility parameters within safety limits</reasontype>
+<weight>1480</weight>
+<oog>false</oog>
+<imo>false</imo>
+<damaged>false</damaged>
+<notformscaccount>false</notformscaccount>
+<comment>MSC</comment>
+</restowitem>
+<restowitem id='3'>
+<terminal>USBALPP</terminal>
+<movementtype>CQC</movementtype>
+<sizetype>4310</sizetype>
+<fullempty>F</fullempty>
+<operator xsi:nil="true"/>
+<restowsamount>7</restowsamount>
+<reasontype>To keep the vessels stability /stress / visibility parameters within safety limits</reasontype>
+<weight>70</weight>
+<oog>false</oog>
+<imo>false</imo>
+<damaged>false</damaged>
+<notformscaccount>false</notformscaccount>
+<comment>MSC</comment>
+</restowitem>
+<restowitem id='4'>
+<terminal>USBALPP</terminal>
+<movementtype>CQC</movementtype>
+<sizetype>2210</sizetype>
+<fullempty>F</fullempty>
+<operator xsi:nil="true"/>
+<restowsamount>14</restowsamount>
+<reasontype>To keep the vessels stability /stress / visibility parameters within safety limits</reasontype>
+<weight>140</weight>
+<oog>false</oog>
+<imo>false</imo>
+<damaged>false</damaged>
+<notformscaccount>false</notformscaccount>
+<comment>MSC</comment>
+</restowitem>
+<restowitem id='5'>
+<terminal>USBALPP</terminal>
+<movementtype>CQC</movementtype>
+<sizetype>2210</sizetype>
+<fullempty>F</fullempty>
+<operator xsi:nil="true"/>
+<restowsamount>1</restowsamount>
+<reasontype>Due to change of port rotation or port omission</reasontype>
+<weight>10</weight>
+<oog>false</oog>
+<imo>false</imo>
+<damaged>false</damaged>
+<notformscaccount>false</notformscaccount>
+<comment>MSC</comment>
+</restowitem>
+</restow>
+<hatchcover>
+<hatchcoveritem id='1'>
+<terminal>USBALPP</terminal>
+<quantity>15</quantity>
+<comment></comment>
+</hatchcoveritem>
+</hatchcover>
+</container>
+</vci>
+<!--Stevedore: Ports America-->
+<!--Terminal Operator: Ports America-->
+<!--TOR Filepath: C:\Users\can.erdogan\OneDrive - Mediterranean Shipping Company\MSC SERVICES\INDUS2\MSC MICHAELA\IX227R\MSC MICHAELA IX227R USBAL FINAL TOR.xlsx-->
+<!--PL Filepath: C:\Users\can.erdogan\OneDrive - Mediterranean Shipping Company\MSC SERVICES\INDUS2\MSC MICHAELA\IX227R\MSC MICHAELA IX227R USBAL FINAL PORT LOG.xlsx-->
+<!--Service: INDUS2-->
+<!--CASP Files:MHIX227RBAL_F.ASC/MHIX227RHAL_F.ASC-->
+<!--MSC Prorata %: 100%-->
+<!--Lashing Start: 7/18/2022 1:00:00 PM-->
+<!--Lashing Finish: 7/19/2022 5:45:00 AM-->
+<!--Lashing Hours Total: 16:45-->
+<!--Straight Time Hours: 12:00-->
+<!--Over Time Hours: 01:30-->
+<!--Premium Time Hours: 01:00-->
+<!--20' Discharge Live Reefer: 0-->
+<!--40' Discharge Live Reefer: 12-->
+<!--20' Load Live Reefer: 0-->
+<!--40' Load Live Reefer: 0-->
+<!--Wires_DIS_20:0-->
+<!--Wires_DIS_40:0-->
+<!--Wires_LOD_20:0-->
+<!--Wires_LOD_40:0-->
+<!--Berths_Away:0-->
+<!--OOB_Containers:0-->
+<!--Backwards_Boxes:0-->
+<!--Extra_Clerks:0-->
+<!--Extra_Drivers:0-->
+<!--Extra_Lashers:0-->
+<!--Flex_Lashers:0-->
+<!--Watchmen:0-->
+
+

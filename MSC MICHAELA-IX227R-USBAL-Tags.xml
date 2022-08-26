@@ -1,0 +1,289 @@
+<items>
+<item tag="61_FAC_TOTAL" value="0" type="N" terminal="USBALPP" />
+<item tag="EXPORT_REEFER_DAYS" value="0" type="N" terminal="USBALPP" />
+<item tag="IMPORT_REEFER_DAYS" value="40" type="N" terminal="USBALPP" />
+<item tag="EXPORT_TONNAGE" value="0" type="N" terminal="USBALPP" />
+<item tag="EXPORT_TONNAGE_CBI" value="0" type="N" terminal="USBALPP" />
+<item tag="IMPORT_TONNAGE" value="11023" type="N" terminal="USBALPP" />
+<item tag="IMPORT_TONNAGE_CBI" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_20_IMPORT_RAIL" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_40_IMPORT_RAIL" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_20_EXPORT_RAIL" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_40_EXPORT_RAIL" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_20_IMPORT_TRUCK" value="2" type="N" terminal="USBALPP" />
+<item tag="NR_40_IMPORT_TRUCK" value="10" type="N" terminal="USBALPP" />
+<item tag="NR_20_EXPORT_TRUCK" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_40_EXPORT_TRUCK" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_20_IMPORT_BARGE" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_40_IMPORT_BARGE" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_20_EXPORT_BARGE" value="0" type="N" terminal="USBALPP" />
+<item tag="NR_40_EXPORT_BARGE" value="0" type="N" terminal="USBALPP" />
+<item tag="ZZ938247_START" value="2022-07-18T12:00:00" type="D" />
+<item tag="Operator_Name" value="MSC" type="S" />
+<item tag="7175A_AVG" value="58.1085" type="N" terminal="USBALPP" />
+<item tag="7165A_AVG" value="0" type="N" terminal="USBALPP" />
+<item tag="Berth" value="3" type="S" terminal="USBALPP" />
+<item tag="Imp_Empty_Tonnage" value="0" type="N" terminal="USBALPP" />
+<item tag="Exp_Empty_Tonnage" value="0" type="N" terminal="USBALPP" />
+<item tag="Tonnage_Tax_Rate" value="0.06" type="N" />
+<item tag="UserFeesThisYear" value="6" type="N" />
+<item tag="FuelRate" value="0" type="N" />
+<item tag="PreviousCallThisPort" value="2012-10-19T18:25:00" type="D" />
+<item tag="PilotageDiscount" value="False" type="S" />
+<item tag="YTD_Moves" value="47494" type="N" terminal="USBALPP" />
+<item tag="YTD_Restows" value="0" type="N" terminal="USBALPP" />
+<item tag="ST_Unplugs" value="0" type="N" terminal="USBALPP" />
+<item tag="OT_Unplugs" value="0" type="N" terminal="USBALPP" />
+<item tag="PT_Unplugs" value="0" type="N" terminal="USBALPP" />
+<item tag="Breakbulk" value="0" type="S" index="1" terminal="USBALPP" />
+<item tag="Breakbulk" value="0" type="N" index="1" terminal="USBALPP" />
+<item tag="Breakbulk" value="0" type="S" index="2" terminal="USBALPP" />
+<item tag="Breakbulk" value="0" type="N" index="2" terminal="USBALPP" />
+<item tag="Backwards_Boxes" value="0" type="N" terminal="USBALPP" />
+<item tag="Berths_Away" value="0" type="N" terminal="USBALPP" />
+<item tag="OOB_Containers" value="0" type="N" terminal="USBALPP" />
+<item tag="Extra_Clerks" value="0" type="N" terminal="USBALPP" />
+<item tag="Extra_Drivers" value="0" type="N" terminal="USBALPP" />
+<item tag="Extra_Lashers" value="0" type="N" terminal="USBALPP" />
+<item tag="Flex_Lashers" value="0" type="N" terminal="USBALPP" />
+<item tag="Watchmen" value="0" type="N" terminal="USBALPP" />
+<item tag="DIS_20_Wires" value="0" type="N" terminal="USBALPP" />
+<item tag="DIS_40_Wires" value="0" type="N" terminal="USBALPP" />
+<item tag="LOD_20_Wires" value="0" type="N" terminal="USBALPP" />
+<item tag="LOD_40_Wires" value="0" type="N" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="BEAU2772280" type="S" index="1" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="1" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="1" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="BEAU5872533" type="S" index="2" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="2" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="2" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="BMOU1615526" type="S" index="3" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="3" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="3" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="BMOU2224486" type="S" index="4" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="4" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="4" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="BMOU4487060" type="S" index="5" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="5" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="5" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CAIU3189311" type="S" index="6" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="6" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="6" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CAIU6935055" type="S" index="7" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="7" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="7" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CAIU6939549" type="S" index="8" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="8" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="8" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CAXU3324985" type="S" index="9" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="9" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="9" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CLHU3958843" type="S" index="10" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="10" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="10" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CLHU9040691" type="S" index="11" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="11" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="11" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CRSU1116521" type="S" index="12" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="12" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="12" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="CXDU1329922" type="S" index="13" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="13" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="13" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="DRYU2498195" type="S" index="14" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="14" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="14" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FBIU0368480" type="S" index="15" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="15" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="15" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FBIU0399985" type="S" index="16" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="16" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="16" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FCIU2650453" type="S" index="17" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="17" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="17" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FCIU3042226" type="S" index="18" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="18" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="18" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FCIU3367319" type="S" index="19" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="19" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="19" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FCIU3525970" type="S" index="20" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="20" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="20" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FCIU3899230" type="S" index="21" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="21" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="21" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FDCU0275498" type="S" index="22" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="22" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="22" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FSCU3386088" type="S" index="23" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="23" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="23" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="FTAU1256770" type="S" index="24" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="24" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="24" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="GLDU3545010" type="S" index="25" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="25" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="25" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="GLDU5322839" type="S" index="26" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="26" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="26" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU2276665" type="S" index="27" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="27" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="27" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU2329934" type="S" index="28" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="28" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="28" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU2406476" type="S" index="29" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="29" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="29" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU2601786" type="S" index="30" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="30" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="30" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU3911322" type="S" index="31" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="31" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="31" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU5445624" type="S" index="32" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="32" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="32" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU5614935" type="S" index="33" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="33" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="33" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU5709774" type="S" index="34" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="34" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="34" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU5820345" type="S" index="35" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="35" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="35" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU5913480" type="S" index="36" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="36" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="36" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU6055071" type="S" index="37" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="37" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="37" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU6173330" type="S" index="38" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="38" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="38" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU6772468" type="S" index="39" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="39" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="39" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU6838863" type="S" index="40" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="40" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="40" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MEDU9470939" type="S" index="41" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="41" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="41" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU1255897" type="S" index="42" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="42" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="42" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU1310612" type="S" index="43" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="43" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="43" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU1580990" type="S" index="44" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="44" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="44" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU1591464" type="S" index="45" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="45" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="45" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU1878623" type="S" index="46" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="46" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="46" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU1998207" type="S" index="47" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="47" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="47" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU2354636" type="S" index="48" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="48" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="48" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU2459452" type="S" index="49" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="49" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="49" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSDU2509131" type="S" index="50" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="50" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="50" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSMU6052029" type="S" index="51" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="51" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="51" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSMU6648070" type="S" index="52" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="52" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="21" type="N" index="52" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSMU6908898" type="S" index="53" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="53" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="53" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="MSMU7476377" type="S" index="54" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="54" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="54" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="SEGU2957290" type="S" index="55" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="55" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="55" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TCKU1670029" type="S" index="56" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="56" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="56" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TCLU2068749" type="S" index="57" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="57" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="57" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TCLU2610850" type="S" index="58" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="58" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="58" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TCLU3091147" type="S" index="59" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="59" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="59" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TEMU1178230" type="S" index="60" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="60" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="60" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TEMU2048328" type="S" index="61" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="61" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="61" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TEMU4911058" type="S" index="62" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="62" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="62" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGBU3061772" type="S" index="63" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="63" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="63" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGBU3090153" type="S" index="64" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="64" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="64" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGBU4590195" type="S" index="65" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="65" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="21" type="N" index="65" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGBU5670171" type="S" index="66" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="66" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="66" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGBU7805527" type="S" index="67" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="40HC" type="S" index="67" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="9" type="N" index="67" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGHU0023317" type="S" index="68" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="68" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="68" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TGHU1818787" type="S" index="69" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="69" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="69" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TLLU3389417" type="S" index="70" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="70" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="70" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TRHU1560020" type="S" index="71" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="71" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="71" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CONTAINER" value="TTNU1088611" type="S" index="72" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_SIZE" value="20DV" type="S" index="72" terminal="USBALPP" />
+<item tag="IMPORT_HAZ_CLASS" value="8" type="N" index="72" terminal="USBALPP" />
+
+<arrivalpilotvendor vendorname="ASSOCIATION OF MARYLAND PILOTS" vendorcode="1000011308" to="2022-07-18T12:10:00" from="2022-07-18T10:14:00" numberpilots="1" pilottype="Docking/Berthing"/>
+<arrivalmooring vendorname="MARYLAND LINE HANDLING" vendorcode="1000011278" to="2022-07-18T12:10:00" from="2022-07-18T12:00:00"/>
+<departureunmooring vendorname="MARYLAND LINE HANDLING" vendorcode="1000011278" to="2022-07-19T06:10:00" from="2022-07-19T05:00:00"/>
+<arrivalpilotvendor vendorname="ASSOCIATION OF MARYLAND PILOTS" vendorcode="1000011308" to="2022-07-14T07:42:00" from="2022-07-13T21:35:00" numberpilots="1" pilottype="Sea"/>
+<arrivalpilotvendor vendorname="ASSOCIATION OF MARYLAND PILOTS" vendorcode="1000011308" to="2022-07-18T12:10:00" from="2022-07-18T08:12:00" numberpilots="1" pilottype="Sea"/>
+<departurepilotvendor vendorname="ASSOCIATION OF MARYLAND PILOTS" vendorcode="1000011308" to="2022-07-19T16:45:00" from="2022-07-19T04:50:00" numberpilots="1" pilottype="Sea"/>
+<stevedore vendorname="PORTS AMERICA CHESAPEAKE, LLC" vendorcode="1000011320" to="2022-07-18T17:00:00" from="2022-07-18T13:00:00" terminalcode="USBALPP" numbergangs="3"/>
+<stevedore vendorname="PORTS AMERICA CHESAPEAKE, LLC" vendorcode="1000011320" to="2022-07-18T18:00:00" from="2022-07-18T17:00:00" terminalcode="USBALPP" numbergangs="3"/>
+<stevedore vendorname="PORTS AMERICA CHESAPEAKE, LLC" vendorcode="1000011320" to="2022-07-19T00:00:00" from="2022-07-18T19:00:00" terminalcode="USBALPP" numbergangs="3"/>
+<stevedore vendorname="PORTS AMERICA CHESAPEAKE, LLC" vendorcode="1000011320" to="2022-07-19T01:00:00" from="2022-07-19T00:00:00" terminalcode="USBALPP" numbergangs="1"/>
+<stevedore vendorname="PORTS AMERICA CHESAPEAKE, LLC" vendorcode="1000011320" to="2022-07-19T03:30:00" from="2022-07-19T01:00:00" terminalcode="USBALPP" numbergangs="2"/>
+<stevedore vendorname="PORTS AMERICA CHESAPEAKE, LLC" vendorcode="1000011320" to="2022-07-19T06:00:00" from="2022-07-19T03:30:00" terminalcode="USBALPP" numbergangs="1"/>
+<arrivaltowagevendor vendorname="MORAN TOWING CORPORATION" vendorcode="1000011274" to="2022-07-18T12:10:00" from="2022-07-18T10:55:00" numbertugs="1" towagetype="Docking"/>
+<arrivaltowagevendor vendorname="MORAN TOWING CORPORATION" vendorcode="1000011274" to="2022-07-18T12:10:00" from="2022-07-18T10:55:00" numbertugs="1" towagetype="Docking"/>
+<arrivaltowagevendor vendorname="MORAN TOWING CORPORATION" vendorcode="1000011274" to="2022-07-18T12:10:00" from="2022-07-18T10:55:00" numbertugs="1" towagetype="Escort"/>
+<departuretowagevendor vendorname="MORAN TOWING CORPORATION" vendorcode="1000011274" to="2022-07-19T06:55:00" from="2022-07-19T06:10:00" numbertugs="1" towagetype="Undocking"/>
+<departuretowagevendor vendorname="MORAN TOWING CORPORATION" vendorcode="1000011274" to="2022-07-19T06:55:00" from="2022-07-19T06:10:00" numbertugs="1" towagetype="Undocking"/>
+
+</items>

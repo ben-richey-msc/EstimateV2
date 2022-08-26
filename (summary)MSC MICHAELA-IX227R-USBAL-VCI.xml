@@ -1,0 +1,199 @@
+<vcidata>
+    <header>
+        <vessel>MSC MICHAELA</vessel>
+        <voyage>IX227R</voyage>
+        <portun>USBAL</portun>
+        <owner></owner>
+        <lengthoverall></lengthoverall>
+        <stevedoresuperintendent></stevedoresuperintendent>
+    </header>
+    <arrival>
+        <timeline>
+            <field value="2022-07-09T09:00:00" type="D" remarkscode="PREARR"/>
+            <field value="2022-07-10T12:00:00" type="D" remarkscode="PILNOT"/>
+            <field value="2022-07-13T21:30:00" type="D" remarkscode="ARRPILSTA"/>
+            <field value="2022-07-18T12:00:00" type="D" remarkscode="FIRLINASH"/>
+            <field value="arrival in order" type="S" remarkscode="BOWTHARR"/>
+            <field value="2022-07-13T21:35:00" type="D" remarkscode="PILORDFOR"/>
+            <field value="2022-07-14T07:42:00" type="D" remarkscode="ANCHDOWN"/>
+            <field value="2022-07-18T08:45:00" type="D" remarkscode="ANCHUP"/>
+            <field value="1899-12-30T00:00:00" type="D" remarkscode="ARRWINSTA"/>
+            <field value="1899-12-30T00:00:00" type="D" remarkscode="ARRWINFIN"/>
+        </timeline>
+        <draft>
+            <item value="14.2" type="AFT" unite="m"/>
+            <item value="43.9" type="AIR" unite="m"/>
+            <item value="14.3" type="FWD" unite="m"/>
+            <item value="14.25" type="MID" unite="m"/>
+            <item value="106076" type="DISPLACEMENT" unite="m"/>
+        </draft>
+        <liquids>
+            <item value="1850" type="BALLAST" unite="m"/>
+            <item value="322" type="FW" unite="m"/>
+            <item value="3724" type="HFO" unite="m"/>
+            <item value="1237" type="MDO" unite="m"/>
+        </liquids>
+        <pilots>
+            <pilot type="Sea" comment="" name="S. HOROWITZ" to="2022-07-14T07:42:00" from="2022-07-13T21:35:00" number="1"/>
+            <pilot type="Sea" comment="" name="" to="2022-07-18T12:10:00" from="2022-07-18T08:12:00" number="1"/>
+            <pilot type="Docking/Berthing" comment="" name="" to="2022-07-18T12:10:00" from="2022-07-18T10:14:00" number="1"/>
+        </pilots>
+        <towages>
+            <tug type="Docking" comment="XXX" name="KAYE" to="2022-07-18T12:10:00" from="2022-07-18T10:55:00" number="1" bowthrusternonop="0" tugtype="Conventional"/>
+            <tug type="Docking" comment="XXX" name="APRILYNNE  MORAN" to="2022-07-18T12:10:00" from="2022-07-18T10:55:00" number="1" bowthrusternonop="0" tugtype="Conventional"/>
+            <tug type="Escort" comment="XXX" name="KAYE" to="2022-07-18T12:10:00" from="2022-07-18T10:55:00" number="1" bowthrusternonop="0" tugtype="Conventional"/>
+        </towages>
+        <linesmen>
+            <linemen type="NO" to="2022-07-18T12:10:00" from="2022-07-18T12:00:00" number="4"/>
+        </linesmen>
+    </arrival>
+    <operations>
+        <timeline>
+            <field value="Stbd" type="S" remarkscode="DOCSIDTO"/>
+            <field value="2022-07-18T12:10:00" type="D" remarkscode="DOCATTER"/>
+            <field value="2022-07-18T12:30:00" type="D" remarkscode="BOAAGEONBOA"/>
+            <field value="2022-07-18T13:00:00" type="D" remarkscode="GANORDFOR"/>
+            <field value="2022-07-18T12:45:00" type="D" remarkscode="GANWAYDOWN"/>
+            <field value="2022-07-18T13:00:00" type="D" remarkscode="OPECOM"/>
+            <field value="2022-07-19T03:00:00" type="D" remarkscode="ESSTTIMOPSCOM"/>
+            <field value="2022-07-19T03:00:00" type="D" remarkscode="ENTCLECUS"/>
+            <field value="2022-07-19T05:45:00" type="D" remarkscode="OPECOMP"/>
+            <field value="2022-07-19T05:45:00" type="D" remarkscode="LASCOMP"/>
+        </timeline>
+        <liquids>
+            <item value="0" type="BALLAST" unite="m"/>
+            <item value="0" type="HFO" unite="m"/>
+            <item value="0" type="MDO" unite="m"/>
+        </liquids>
+    </operations>
+    <departure>
+        <timeline>
+            <field value="1899-12-30T00:00:00" type="D" remarkscode="DEPWINSTA"/>
+            <field value="1899-12-30T00:00:00" type="D" remarkscode="DEPWINFIN"/>
+            <field value="2022-07-19T05:00:00" type="D" remarkscode="DEPPILTUGORDFOR"/>
+            <field value="2022-07-19T04:30:00" type="D" remarkscode="BOAAGEOFFVES"/>
+            <field value="2022-07-19T06:10:00" type="D" remarkscode="VESUNDOC"/>
+            <field value="2022-07-19T16:45:00" type="D" remarkscode="VESSAIFROTHIPOR"/>
+            <field value="Others" type="S" remarkscode="DEPLOSTTIME"/>
+            <field value="departure in order" type="S" remarkscode="BOWTHDEP"/>
+        </timeline>
+        <draft>
+            <item value="13.2" type="AFT" unite="m"/>
+            <item value="45" type="AIR" unite="m"/>
+            <item value="13.2" type="FWD" unite="m"/>
+            <item value="13.2" type="MID" unite="m"/>
+            <item value="94869" type="DISPLACEMENT" unite="m"/>
+        </draft>
+        <liquids>
+            <item value="1850" type="BALLAST" unite="m"/>
+            <item value="320" type="FW" unite="m"/>
+            <item value="3724" type="HFO" unite="m"/>
+            <item value="1231" type="MDO" unite="m"/>
+        </liquids>
+        <pilots>
+            <pilot type="Sea" comment="" name="" to="2022-07-19T16:45:00" from="2022-07-19T04:50:00" number="1"/>
+        </pilots>
+        <towages>
+            <tug type="Undocking" comment="XXX" name="KAYE" to="2022-07-19T06:55:00" from="2022-07-19T06:10:00" number="1" bowthrusternonop="0" tugtype="Conventional"/>
+            <tug type="Undocking" comment="XXX" name="APRIL MORAN" to="2022-07-19T06:55:00" from="2022-07-19T06:10:00" number="1" bowthrusternonop="0" tugtype="Conventional"/>
+        </towages>
+        <linesmen>
+            <linemen type="NO" to="2022-07-19T06:10:00" from="2022-07-19T05:00:00" number="2"/>
+        </linesmen>
+    </departure>
+    <bunker>
+        <stemmed>N</stemmed>
+        <fwsupplied>Y</fwsupplied>
+        <ordered>1899-12-30T00:00:00</ordered>
+        <start>1899-12-30T00:00:00</start>
+        <completed>1899-12-30T00:00:00</completed>
+    </bunker>
+    <husbandry>
+    </husbandry>
+    <safetycompliance>
+        <item code="ENOA" date="2022-07-10T00:00:00" yesno="1"/>
+        <item code="NVMC" date="2022-07-10T00:00:00" yesno="1"/>
+        <item code="CREWLIST" date="2022-07-10T00:00:00" yesno="1"/>
+        <item code="NAVEQUIP" date="2022-07-10T00:00:00" yesno="1"/>
+    </safetycompliance>
+    <vesselshifting>
+     <shift type="No Shifting"/>
+    </vesselshifting>
+    <summary>
+        <extraserviceprovided></extraserviceprovided>
+        <generalremarks></generalremarks>
+        <gangsummary>
+            <gangstart>2022-07-18T13:00:00</gangstart>
+            <gangfinish>2022-07-19T06:00:00</gangfinish>
+            <operationsstart>2022-07-18T13:00:00</operationsstart>
+            <operationsfinish>2022-07-19T05:45:00</operationsfinish>
+        </gangsummary>
+    </summary>
+    <dischargedetails>
+        <linecode type="DIMP" number="361" fullempty="F" containersize="20" operator="MSC"/>
+        <linecode type="DIMP" number="188" fullempty="F" containersize="40" operator="MSC"/>
+        <linecode type="TMCNT" number="12" fullempty=" " containersize="40" operator="MSC"/>
+    </dischargedetails>
+    <loaddetails>
+    </loaddetails>
+    <lidmoves>
+        <lid off="15" on="15"/>
+    </lidmoves>
+    <reefermechanic>
+        <mechanic to="2022-07-18T18:00:00" from="2022-07-18T13:00:00" number="0"/>
+        <mechanic to="2022-07-19T06:00:00" from="2022-07-18T19:00:00" number="0"/>
+    </reefermechanic>
+    <containershifting>
+        <shift account="MSCU" type="Restow" containersize="40" fullempty="F" value="23" oog="0" imo="0" reason="To keep stability / stresses parameters within safety limits" reefer="1"/>
+        <shift account="MSCU" type="Restow" containersize="40" fullempty="E" value="8" oog="0" imo="0" reason="To keep stability / stresses parameters within safety limits" reefer="1"/>
+        <shift account="MSCU" type="Restow" containersize="40" fullempty="F" value="148" oog="0" imo="0" reason="To keep stability / stresses parameters within safety limits" reefer="0"/>
+        <shift account="MSCU" type="Restow" containersize="40" fullempty="F" value="7" oog="0" imo="0" reason="To keep stability / stresses parameters within safety limits" reefer="0"/>
+        <shift account="MSCU" type="Restow" containersize="20" fullempty="F" value="14" oog="0" imo="0" reason="To keep stability / stresses parameters within safety limits" reefer="0"/>
+        <shift account="MSCU" type="Restow" containersize="20" fullempty="F" value="1" oog="0" imo="0" reason="Due to change of port rotation -or port omission-" reefer="0"/>
+    </containershifting>
+    <gangworkingtimes>
+        <gang from="2022-07-18T13:00:00" to="2022-07-18T17:00:00" number="3" workingperiodpayrate="ST"/>
+        <gang from="2022-07-18T17:00:00" to="2022-07-18T18:00:00" number="3" workingperiodpayrate="OT"/>
+        <gang from="2022-07-18T19:00:00" to="2022-07-19T00:00:00" number="3" workingperiodpayrate="OT"/>
+        <gang from="2022-07-19T00:00:00" to="2022-07-19T01:00:00" number="1" workingperiodpayrate="PT"/>
+        <gang from="2022-07-19T01:00:00" to="2022-07-19T03:30:00" number="2" workingperiodpayrate="OT"/>
+        <gang from="2022-07-19T03:30:00" to="2022-07-19T06:00:00" number="1" workingperiodpayrate="OT"/>
+    </gangworkingtimes>
+    <gangdetention>
+        <gang to="2022-07-18T15:10:00" from="2022-07-18T14:55:00" number="1" workingperiodpayrate="ST" detentionaccount="TEROP" detentiontype="DET008"/>
+        <gang to="2022-07-18T16:15:00" from="2022-07-18T16:00:00" number="1" workingperiodpayrate="ST" detentionaccount="TEROP" detentiontype="DET008"/>
+        <gang to="2022-07-18T17:30:00" from="2022-07-18T17:15:00" number="3" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="DET045"/>
+        <gang to="2022-07-19T01:00:00" from="2022-07-19T00:45:00" number="1" workingperiodpayrate="PT" detentionaccount="TEROP" detentiontype="UGANGTIME"/>
+        <gang to="2022-07-18T13:20:00" from="2022-07-18T13:00:00" number="1" workingperiodpayrate="ST" detentionaccount="TEROP" detentiontype="DET008"/>
+        <gang to="2022-07-19T03:30:00" from="2022-07-19T03:15:00" number="1" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="UGANGTIME"/>
+        <gang to="2022-07-19T01:15:00" from="2022-07-19T01:00:00" number="1" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="DET008"/>
+        <gang to="2022-07-19T02:45:00" from="2022-07-19T02:30:00" number="1" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="DET008"/>
+        <gang to="2022-07-19T04:30:00" from="2022-07-19T04:15:00" number="1" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="DET026"/>
+        <gang to="2022-07-19T06:00:00" from="2022-07-19T05:45:00" number="1" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="UGANGTIME"/>
+        <gang to="2022-07-19T05:30:00" from="2022-07-19T05:00:00" number="1" workingperiodpayrate="OT" detentionaccount="TEROP" detentiontype="DET014"/>
+        <remarks> SPREADER STUCK ON CORNER CASTING MSDU1580990  </remarks>
+    </gangdetention>
+    <customsinspection>
+        <inspection>
+            <inspection code="INSPECT" type="B" value="0"/>
+            <inspection code="VES_INSP" type="B" value="0"/>
+            <inspection code="CARGO_INSP" type="B" value="0"/>
+            <inspection code="IMPORT" type="I" value=""/>
+            <inspection code="EMPTY" type="I" value=""/>
+            <inspection code="ROB" type="I" value=""/>
+            <inspection code="RSINCURRED" type="I" value=""/>
+        </inspection>
+    </customsinspection>
+    <gangsplit>
+        <crane craneid="1" gangforeman="Gregory" stevedoresuperintendent="Rich" projected="317" final="317"/>
+        <crane craneid="2" gangforeman="Jackson" stevedoresuperintendent="Rich" projected="317" final="317"/>
+        <crane craneid="3" gangforeman="Sutton El" stevedoresuperintendent="Rich" projected="317" final="317"/>
+    </gangsplit>
+    <yardequipment>
+        <crane equipmentcode="Top Handlers" cranename="1" value="1"/>
+        <crane equipmentcode="Top Handlers" cranename="2" value="1"/>
+        <crane equipmentcode="Top Handlers" cranename="3" value="1"/>
+        <crane equipmentcode="Top Handlers" cranename="4" value="1"/>
+        <crane equipmentcode="Top Handlers" cranename="5" value="1"/>
+    </yardequipment>
+</vcidata>

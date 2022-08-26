@@ -10,6 +10,7 @@ using System.Xml.Linq;
 using System.Threading;
 using System.Data.Entity;
 using System.Xml.Serialization;
+using EstimateV2.Core.XML_Output;
 
 namespace EstimateV2.Modules.Settings.ViewModels
 {
@@ -37,8 +38,8 @@ namespace EstimateV2.Modules.Settings.ViewModels
             set { SetProperty(ref _VisEst, value); }
         }
 
-        private List<DueToday> _vesselList;
-        public List<DueToday> VesselList
+        private List<Vendor> _vesselList;
+        public List<Vendor> VesselList
         {
             get { return _vesselList; }
             set { SetProperty(ref _vesselList, value); }
@@ -49,35 +50,52 @@ namespace EstimateV2.Modules.Settings.ViewModels
         public DelegateCommand cmdShowDB { get; private set; }
         public DelegateCommand cmdShowXML { get; private set; }
         public DelegateCommand cmdShowEst { get; private set; }
-        private static string path = @"C:\Work\Liam\TestingNewXML\USBAL-MSC MICHAELA-IX227R-25JUL2022-131619.xml";
+        public DelegateCommand cmdTestOutput { get; private set; }
+        private static string path = @"C:\Users\benjamin.richey\source\repos\EstimateV2\USBAL-MSC MICHAELA-IX227R-25JUL2022-131619.xml";
 
 
         public SettingsWindowViewModel()
         {
-            refreshDB();
-            VCIList = GetNewXML();
+            //refreshDB();
+            //VCIList = GetNewXML();
             cmdShowDB = new DelegateCommand(ShowDB);
             cmdShowXML = new DelegateCommand(ShowXML);
             cmdShowEst = new DelegateCommand(ShowEst);
+            cmdTestOutput = new DelegateCommand(TestOutput);
 
             //test database to XML
-            DbToXml();
+            //DbToXml();
+
+            XDocument? doc = XDocument.Load(path);
 
             //test serialization
-            var vci = new VCI();
-            vci = ProcessXML(path);
-            SaveAsXmlFormat(vci, "testserial.xml");
+            //var vci = new VCI();
+            //vci = ProcessXML(path);
+            //SaveAsXmlFormat(vci, "testserial.xml");
 
             //test output serialization - gangworkingtime
-            var detailList = vci.Operation.SteveDoringOperation.First().SteveDoringDetail;
+            //var detailList = vci.Operation.SteveDoringOperation.First().SteveDoringDetail;
             //var svd = new SteveDoringDetailItemOut(detailList.First());
             //var vci = new VCI();
 
             //SaveAsXmlFormat(svd, "testserialgangtime.xml");
 
             //test output serialization - no seprarate out class
-            var detailList3 = vci.Operation.SteveDoringOperation; 
-            SaveAsXmlFormat(detailList3, "testserialgangtime2.xml");
+            //var detailList3 = vci.Operation.SteveDoringOperation; 
+            //SaveAsXmlFormat(detailList3, "testserialgangtime2.xml");
+
+
+        }
+
+        public void TestOutput()
+        {
+            List<Vendor> vendorList = new List<Vendor>();
+
+            OutputHelper outputHelper = new OutputHelper();
+            //outputHelper.Helper();
+            vendorList = outputHelper.GetVendorList();
+
+            VesselList = vendorList;
         }
 
         static void SaveAsXmlFormat<T>(T objGraph, string fileName)
@@ -93,7 +111,7 @@ namespace EstimateV2.Modules.Settings.ViewModels
 
         void refreshDB()
         {
-            VesselList = globalEntities.DueTodays.ToList();
+            //VesselList = globalEntities.DueTodays.ToList();
         }
 
         private void ShowDB()

@@ -14,7 +14,7 @@ namespace EstimateV2.Core.Excel
         {
             List<String> categories;
             List<String> companies;
-            ExtractCategoriesCompanies("MSC MICHAELA IX227R USBAL FINAL TOR.xlsx", out categories, out companies);
+            //ExtractCategoriesCompanies("MSC MICHAELA IX227R USBAL FINAL TOR.xlsx", out categories, out companies);
 
             // Testing ClosedXML Library for Extracting from TOR and Port Log
         }
